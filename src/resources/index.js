@@ -1,0 +1,10 @@
+export { default as ActionIcon } from './ActionIcon';
+export { default as BedroomIcon } from './BedroomIcon';
+export { default as MeasurementIcon } from './MeasurementIcon';
+export { default as ProductIcon } from './ProductIcon';
+export { default as SummaryIcon } from './SummaryIcon';
+export { default as SurfaceIcon } from './SurfaceIcon';
+export { default as CopyIcon } from './Copyicon';
+export { default as DeleteIcon } from './Deleteicon';
+export { default as ScrollIcon } from './ScrollBtnIcon';
+export { default as AlertIcon } from './AlertIcon';

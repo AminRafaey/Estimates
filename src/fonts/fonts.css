@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Medium';
+  src: url(./Poppins-Medium.ttf) format('truetype'),
+    url(./Poppins-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url(./Poppins-Regular.ttf) format('truetype'),
+    url(./Poppins-Regular.woff) format('woff');
+}
+
+body,
+span,
+p,
+div {
+  font-family: 'Regular';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+strong,
+b {
+  font-family: 'Medium';
+}

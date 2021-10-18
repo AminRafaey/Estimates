@@ -1,0 +1,104 @@
+.ant-notification {
+  z-index: 1301 !important;
+}
+
+.toggleButton {
+  border: none !important;
+}
+
+.scrollElement::-webkit-scrollbar {
+  display: none;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar {
+  display: none;
+}
+
+.dragIcon {
+  visibility: hidden;
+}
+
+.room:hover .dragIcon {
+  visibility: visible;
+}
+
+.dragIconOfRoomCategory {
+  visibility: hidden;
+}
+
+.roomCategory:hover .dragIconOfRoomCategory {
+  visibility: visible;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .MuiTab-root {
+    min-width: 50px !important;
+  }
+}
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon
+  .MuiAutocomplete-inputRoot[class*='MuiOutlinedInput-root'] {
+  padding-right: 30px !important;
+}
+
+.AdjustmentPopover::after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffff;
+  content: ' ';
+  position: absolute;
+  left: 150px;
+  right: auto;
+  top: auto;
+  bottom: -10px;
+}
+
+.AddDropUp::after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffff;
+  content: ' ';
+  position: absolute;
+  left: 18px;
+  right: auto;
+  top: auto;
+  bottom: -10px;
+}
+
+.CoatFieldPopover::after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffff;
+  content: ' ';
+  position: absolute;
+  left: 140px;
+  right: auto;
+  top: auto;
+  bottom: -10px;
+}
+
+.Toolbar::after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffff;
+  content: ' ';
+  position: absolute;
+  left: 67px;
+  right: auto;
+  top: auto;
+  bottom: -10px;
+}

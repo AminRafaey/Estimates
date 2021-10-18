@@ -1,0 +1,44 @@
+body,
+html {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body,
+span,
+p,
+div,
+a,
+input {
+  font-family: 'Regular';
+  margin: 0;
+}
+
+input {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+strong,
+b {
+  font-family: 'Medium';
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  margin: 0 !important;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 0 !important;
+}
+
+h2 {
+  font-size: 18px;
+}
